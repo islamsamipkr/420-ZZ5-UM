@@ -14,7 +14,7 @@ resource "azurerm_storage_account" "azurermmcit" {
   account_tier             = "Standard"
   account_replication_type = "GRS"
   access_tier="Cool"
-  cross_tenant_replication_enabled = False
+  cross_tenant_replication_enabled = false
   tags = {
     environment = "staging"
   }
