@@ -3,7 +3,7 @@ resource "azurerm_resource_group" "mcit420zz5um" {
   location = "canadacentral"
 }
 
-
+/*
 resource "azurerm_storage_account" "azurermmcit" {
   name                     = "storageaccountname"
   resource_group_name      = azurerm_resource_group.mcit420zz5um.name
@@ -16,3 +16,4 @@ resource "azurerm_storage_account" "azurermmcit" {
     environment = "staging"
   }
 }
+*/
