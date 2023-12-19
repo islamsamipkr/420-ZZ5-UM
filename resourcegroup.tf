@@ -3,10 +3,7 @@ resource "azurerm_resource_group" "mcit420zz5um" {
   location = "canadacentral"
 }
 
-resource "azurerm_resource_group" "mcit420zz5um2" {
-  name     = "mcit_resource_group_lecture2"
-  location = "canadacentral"
-}
+
 resource "azurerm_storage_account" "azurermmcit" {
   name                     = "storageaccountname"
   resource_group_name      = azurerm_resource_group.mcit420zz5um.name
