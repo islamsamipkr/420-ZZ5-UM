@@ -9,4 +9,3 @@ output "print"{
 output "secondprint"{
       value = local.owner
 }
-output
