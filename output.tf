@@ -11,3 +11,7 @@ output "lengthsa"{
 output "lengthforum"{
     value=local.lengthforum
 }
+
+output "count"{
+    value=var.count
+}
