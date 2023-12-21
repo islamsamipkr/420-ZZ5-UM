@@ -1,5 +1,5 @@
 output "print"{
-      value = local.service_name
+      value = local.servicename
 }
 output "secondprint"{
       value = local.owner
