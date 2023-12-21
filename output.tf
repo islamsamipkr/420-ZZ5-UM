@@ -12,6 +12,6 @@ output "lengthforum"{
     value=local.lengthforum
 }
 
-output "count"{
-    value=var.count
+output "countNumber"{
+    value=var.countNumber
 }
