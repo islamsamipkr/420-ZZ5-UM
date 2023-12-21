@@ -2,7 +2,7 @@ output "print"{
       value = local.servicename
 }
 output "secondprint"{
-      value = local.owner
+      value = local.forum
 }
 
 output "lengthsa"{
