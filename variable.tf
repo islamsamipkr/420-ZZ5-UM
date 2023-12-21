@@ -27,3 +27,7 @@ variable "account_replication_type"{
   type=string
   default="GRS"
 }
+variable "access_tier"{
+  type=string
+  default="Cool"
+}
