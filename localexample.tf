@@ -1,6 +1,6 @@
-
-locals {​
-
-  service_name = "forum"​
-  owner        = "CommunityTeam"​
+locals{
+  servicename="abracadabra"
+  forum="abracadabramcit"
+  lengthsa=length(local.service_name)
+  
 }
