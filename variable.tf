@@ -13,6 +13,6 @@ variable "tenant_id"{
   type=string
 }
 variable "count"{
-type=number
-default=0
+  type=number
+  default=0
 }
