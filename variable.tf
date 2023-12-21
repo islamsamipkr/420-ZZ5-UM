@@ -16,3 +16,7 @@ variable "countNumber"{
   type=number
   default=0
 }
+variable "account_tier"{
+  type=string
+  default="Standard"
+}
