@@ -12,7 +12,7 @@ variable "client_secret"{
 variable "tenant_id"{
   type=string
 }
-variable "count"{
+variable "countNumber"{
   type=number
   default=0
 }
