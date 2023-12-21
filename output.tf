@@ -9,5 +9,5 @@ output "lengthsa"{
     value=local.lengthsa
 }
 output "lengthforum"{
-    valoue=local.lengthforum
+    value=local.lengthforum
 }
