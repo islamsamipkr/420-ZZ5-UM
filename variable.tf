@@ -31,3 +31,7 @@ variable "access_tier"{
   type=string
   default="Cool"
 }
+variable "cross_tenant_replication_enabled"{
+ type=boolean
+ default=false
+}
