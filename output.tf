@@ -8,7 +8,3 @@ output "secondprint"{
 output "thirdprint"{
       value=local.lengthofService_name
 }
-output "forthprint"{
-      value=local.lengthofowner_name
-}
-
