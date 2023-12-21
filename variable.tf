@@ -20,3 +20,7 @@ variable "account_tier"{
   type=string
   default="Standard"
 }
+variable "myname"{
+  type=string
+}
+
