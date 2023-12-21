@@ -1,10 +1,13 @@
 output "print"{
-      value = local.servicename
+    value = local.servicename
 }
 output "secondprint"{
-      value = local.forum
+    value = local.forum
 }
 
 output "lengthsa"{
-      value=local.lengthsa
+    value=local.lengthsa
+}
+output "lengthforum"{
+    valoue=local.lengthforum
 }
