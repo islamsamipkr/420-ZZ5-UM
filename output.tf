@@ -5,6 +5,6 @@ output "secondprint"{
       value = local.owner
 }
 
-output "thirdprint"{
-      value=local.lengthofService_name
+output "lengthsa"{
+      value=local.lengthsa
 }
