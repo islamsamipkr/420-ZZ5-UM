@@ -16,6 +16,6 @@ output "countNumber"{
     value=var.countNumber
 }
 output "wintersportslist"{
-    value=[for sport in list:sport]
+    value=[for sport in local.winterlistOfSports:sport]
 }
 
