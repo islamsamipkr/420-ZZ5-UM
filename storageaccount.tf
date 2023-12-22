@@ -19,8 +19,8 @@ resource "azurerm_storage_account" "sa" {
 
 }
 resource "azurerm_storage_container" "ct" {
-  #count                = length(var.component)
-  name                 = "terraform-state${var.component}"
+  count                = length(var.component)
+  name                 = "terraform-state-${element(var.component, count.index)}"
   storage_account_name = azurerm_storage_account.sa.name
 
 }
