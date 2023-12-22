@@ -10,3 +10,9 @@ resource "azurerm_storage_account" "azurermmcit" {
     environment = var.environment
   }
 }
+resource "azurerm_storage_container" "ct" {
+  #count                = length(var.component)
+  name                 = "terraform-state${var.component}"
+  storage_account_name = azurerm_storage_account.sa.name
+
+}
