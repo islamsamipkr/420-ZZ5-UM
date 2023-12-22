@@ -12,8 +12,8 @@ resource "azurerm_storage_account" "azurermmcit" {
 }
 resource "azurerm_storage_account" "sa" {
   name                     = "${lower(var.naming_prefix)}${random_integer.sa_num.result}"
-  resource_group_name      = azurerm_resource_group.setup.name
-  location                 = var.location
+  resource_group_name      = azurerm_resource_group.mcit420zz5um.name
+  location                 = azurerm_resource_group.mcit420zz5um.location
   account_tier             = "Standard"
   account_replication_type = "LRS"
 
