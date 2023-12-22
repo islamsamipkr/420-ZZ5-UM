@@ -39,6 +39,10 @@ variable "prefix"{
  type=string
  default="mcit"
 }
+variable "component" {
+  type    = list
+  default = ["bastion", "frontproxy", "db", "infra"]
+}
 variable "environment"{
  type=string
  default="staging"
