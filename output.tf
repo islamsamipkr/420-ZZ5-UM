@@ -15,3 +15,7 @@ output "lengthforum"{
 output "countNumber"{
     value=var.countNumber
 }
+output "wintersportslist"{
+    value=[for sport in list:sport]
+}
+
