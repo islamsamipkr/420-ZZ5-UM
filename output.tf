@@ -15,3 +15,11 @@ output "lengthforum"{
 output "countNumber"{
     value=var.countNumber
 }
+output "myfirstname"{
+    value=local.myfirstname
+}
+output "mylastname"{
+    value=local.mylastname
+}
+output "lengthsa"{
+    value=local.
