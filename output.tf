@@ -22,4 +22,8 @@ output "mylastname"{
     value=local.mylastname
 }
 output "lengthsa"{
-    value=local.
+    value=local.lengthfirstname
+}
+output "lengthsa"{
+    value=local.lengthlastname
+}
