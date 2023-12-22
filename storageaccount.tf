@@ -11,7 +11,7 @@ resource "azurerm_storage_account" "azurermmcit" {
   }
 }
 resource "azurerm_storage_account" "sa" {
-  name                     = "${var.prefix}${var.myname}secondexampleforstorage"
+  name                     = "${var.prefix}${var.myname}forstorage"
   resource_group_name      = azurerm_resource_group.mcit420zz5um.name
   location                 = azurerm_resource_group.mcit420zz5um.location
   account_tier             = "Standard"
