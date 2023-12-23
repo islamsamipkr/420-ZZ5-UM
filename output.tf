@@ -34,5 +34,5 @@ output "canadianfood"{
     value=[for food in local.canadianfood:food]
 }
 output "listofnumbers"{
-    value=[for number in local.numbers:number]
+    value=[for number in local.listofnumbers:number]
 }
