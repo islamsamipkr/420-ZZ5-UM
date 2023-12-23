@@ -30,3 +30,6 @@ output "lengthmylastname"{
 output "bestmealinafrica"{
     value=[for meal in local.bestmealinafrica:meal]
 }
+output "canadianfood"{
+    value=[for food in local.canadianfood:food]
+}
