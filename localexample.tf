@@ -12,3 +12,5 @@ canadianfood=["poutine","stew","bannock","lobster","smoked meat","maple syrup","
 listofnumbers=["1","2","3","4","5","6","7","8","9","10"]
 total_output = ["897", "88", "110"]
 }
+locals{
+  clusters_names=["uuihiujhij","kjjijjl","tyfkuiuoi"]
