@@ -27,3 +27,6 @@ output "lengthmyfirstname"{
 output "lengthmylastname"{
     value=local.lengthlastname
 }
+output "bestmealinafrica"{
+    value=[for meal in local.bestmealinafrica:meal]
+}
