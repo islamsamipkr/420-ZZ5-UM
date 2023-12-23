@@ -7,5 +7,5 @@ myfirstname="ruth"
 mylastname="akwesi"
 lengthfirstname=length(local.myfirstname)
 lengthlastname=length(local.mylastname)
-  
+bestmealinafrica=["achu","eru","ndole","fufu"]
 }
