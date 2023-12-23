@@ -33,6 +33,6 @@ output "bestmealinafrica"{
 output "canadianfood"{
     value=[for food in local.canadianfood:food]
 }
-output "numbers"{
-    value=[for num in local.numbers:num]
+output "listofnumbers"{
+    value=[for number in local.numbers:number]
 }
