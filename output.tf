@@ -21,9 +21,9 @@ output "myfirstname"{
 output "mylastname"{
     value=local.mylastname
 }
-output "lengthsa"{
+output "lengthmyfirstname"{
     value=local.lengthfirstname
 }
-output "lengthsa"{
+output "lengthmylastname"{
     value=local.lengthlastname
 }
