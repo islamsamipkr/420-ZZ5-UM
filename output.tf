@@ -36,6 +36,6 @@ output "canadianfood"{
 output "listofnumbers"{
     value=[for number in local.listofnumbers:number]
 }
-output "sumoffournumbers"{
+output "sumofthreenumbers"{
     value=sum([for numberoutput in local.total_output: tonumber(numberoutput)])
 }
