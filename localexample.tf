@@ -14,3 +14,4 @@ total_output = ["897", "88", "110"]
 }
 locals{
   clusters_names=["uuihiujhij","kjjijjl","tyfkuiuoi"]
+}
