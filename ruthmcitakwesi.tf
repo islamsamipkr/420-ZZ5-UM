@@ -1,6 +1,6 @@
 variable "storage_account_names" {
   type    = list(string)
-  default = ["RuthMCITAkwesi1", "RuthMCITAkwesi2", "RuthMCITAkwesi3", "RuthMCITAkwesi4"]
+  default = ["RuthMCITAkwesi1", "RuthMCITAkwesi2", "RuthMCITAkwesi3", "RuthMCITAkwesi4", "RuthMCITAkwesi5"]
 }
 
 resource "azurerm_storage_account" "storage_accounts" {
