@@ -27,7 +27,7 @@ resource "azurerm_kubernetes_cluster" "batchabcd" {
     Environment = "Production"
   }
 }
-
+/*
 output "client_certificate" {
   value     = [for cluster in azurerm_kubernetes_cluster.batchabcd:cluster.kube_config.0.client_certificate]
   sensitive = true
@@ -44,3 +44,4 @@ output "kube_id"{
 output "kube_name"{
   value=[for cluster in azurerm_kubernetes_cluster.batchabcd:cluster.name ]
 }
+*/
