@@ -29,41 +29,41 @@ output "sumofthreenumbers"{
 }
 output "id" {
   value = [
-    for cluster in azurerm_kubernetes_cluster.myk8s: cluster.id
+    for cluster in azurerm_kubernetes_cluster.batchabcd: cluster.id
   ]
 }
 
 output "kube_config" {
   sensitive = true
   value = [ 
-    for cluster in azurerm_kubernetes_cluster.myk8s: cluster.kube_config_raw
+    for cluster in azurerm_kubernetes_cluster.batchabcd: cluster.kube_config_raw
   ]
 }
 
 output "client_key" {
   sensitive = true
   value = [
-    for cluster in azurerm_kubernetes_cluster.myk8s: cluster.kube_config.0.client_key
+    for cluster in azurerm_kubernetes_cluster.batchabcd: cluster.kube_config.0.client_key
   ]
 }
 
 output "client_certificate" {
   sensitive = true
   value = [
-    for cluster in azurerm_kubernetes_cluster.myk8s: cluster.kube_config.0.client_certificate
+    for cluster in azurerm_kubernetes_cluster.batchabcd: cluster.kube_config.0.client_certificate
   ]
 }
 
 output "cluster_ca_certificate" {
   sensitive = true
   value = [
-    for cluster in azurerm_kubernetes_cluster.myk8s: cluster.kube_config.0.cluster_ca_certificate
+    for cluster in azurerm_kubernetes_cluster.batchabcd: cluster.kube_config.0.cluster_ca_certificate
   ]
 }
 
 output "host" {
   sensitive = true
   value = [
-    for cluster in azurerm_kubernetes_cluster.myk8s: cluster.kube_config.0.host
+    for cluster in azurerm_kubernetes_cluster.batchabcd: cluster.kube_config.0.host
   ]
 }
