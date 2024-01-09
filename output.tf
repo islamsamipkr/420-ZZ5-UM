@@ -68,5 +68,5 @@ output "host" {
   ]
 }
 output "exampleoutput"{
-    value=[for index, character in toset(local.characters): character => local.enemies_destroyed[index]]
+    value={for index, character in toset(local.characters): character => local.enemies_destroyed[index]}
 }
