@@ -68,8 +68,9 @@ output "host" {
   ]
 }
 output "exampleoutput" {
-  value = {
-    for character in tolist(local.characters) : character => local.enemies_destroyed[element(character, local.characters)]
+  value =    { for character in local.characters: # Convert character list to a set
+      character => local.enemies_destroyed
   }
+
 }
 
