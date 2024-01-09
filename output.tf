@@ -67,11 +67,9 @@ output "host" {
     for cluster in azurerm_kubernetes_cluster.batchabcd: cluster.kube_config.0.host
   ]
 }
-output "exampleoutput"{
-      value = {
-    characters = local.characters,
-    enemies_destroyed = local.enemies_destroyed,
-    mapped_values = { for index, character in toset(local.characters) : character => local.enemies_destroyed[index] },
+output "exampleoutput" {
+  value = {
+    for index, character in toset(local.characters) : character => local.enemies_destroyed[index]
   }
-
 }
+
