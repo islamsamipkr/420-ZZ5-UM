@@ -74,3 +74,6 @@ output "exampleoutput" {
 
 }
 
+output "character_enemy_output" {
+  value = local.character_enemy_map
+}
