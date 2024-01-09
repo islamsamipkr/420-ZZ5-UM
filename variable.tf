@@ -16,3 +16,11 @@ variable "countNumber"{
   type=number
   default=0
 }
+variable "force_map" {​
+  type = map(string)​
+  default = {​
+    luke  = "jedi"​
+    yoda  = "jedi"​
+    darth = "sith"​
+  }​
+}​
