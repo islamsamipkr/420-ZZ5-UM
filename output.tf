@@ -68,5 +68,10 @@ output "host" {
   ]
 }
 output "exampleoutput"{
-    value={for index, character in toset(local.characters): character => local.enemies_destroyed[index]}
+      value = {
+    characters = local.characters,
+    enemies_destroyed = local.enemies_destroyed,
+    mapped_values = { for index, character in toset(local.characters) : character => local.enemies_destroyed[index] },
+  }
+
 }
