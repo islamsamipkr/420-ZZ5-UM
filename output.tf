@@ -39,3 +39,6 @@ output "listofnumbers"{
 output "sumofthreenumbers"{
     value=sum([for numberoutput in local.total_output: tonumber(numberoutput)])
 }
+output "force_map_output" {
+value = var.force_map
+}
